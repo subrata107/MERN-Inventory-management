@@ -24,10 +24,9 @@ const updateProd = () => {
   }, []);
 
   const handleDropdownChange = (event) => {
-    // console.log(`THIS is event.target === ${event.target.value}`);
-    //setSelectedItem(event.target.value);
+   
     selectedItem = event.target.value;
-    // console.log(`this is select item ===${selectedItem}`);
+    
     for (let i = 0; i < finalData.length; i++) {
       if (selectedItem === finalData[i].pid) {
         setData(finalData[i]);
@@ -91,7 +90,7 @@ const updateProd = () => {
             onChange={(e) =>
               setData({ ...data, [e.target.name]: e.target.value })
             }
-            disabled={true}
+            
           />
 
           <label htmlFor="">Quantity</label>
