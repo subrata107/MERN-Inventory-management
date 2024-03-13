@@ -1,5 +1,8 @@
+//in Database.js
+
+
 const mongoose = require("mongoose");
-URL = "";
+URL = "mongodb://localhost:27017/stockDB";
 
 const connectdb = () => {
   mongoose.connect(URL).then(() => {
