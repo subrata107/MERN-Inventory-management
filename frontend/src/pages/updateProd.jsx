@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./css/updateprod.css";
+import "./css/update-removeprod.css";
 import Axios from "axios";
 import { useNavigate } from "react-router";
 import Home from "./home"
@@ -69,6 +69,7 @@ const updateProd = () => {
   return (
     <>
     <Home/>
+    <br />
       <div id="container">
         <form action="" id="form-group">
           <label htmlFor="">Product Id</label>
@@ -81,7 +82,6 @@ const updateProd = () => {
               <option key={item}>{item.pid}</option>
             ))}
           </select>
-
           <label htmlFor="">Product Name</label>
           <input
             type="text"

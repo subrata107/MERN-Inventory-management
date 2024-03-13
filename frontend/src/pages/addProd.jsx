@@ -30,7 +30,7 @@ const addProd = () => {
 
             if (addResponse.data) {
               window.alert("Products are added");
-              navigate("/");
+              navigate("/products");
             } else {
               window.alert("Oops Something went wrong");
             }

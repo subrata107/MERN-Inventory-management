@@ -17,7 +17,7 @@ body {
     width: 50%;
     text-align: center;
     padding: 10px 30px 10px 30px;
-    background-color: rgb(200, 176, 147);
+    background-color: rgb(193, 190, 188);
     border-radius: 20px;
 
 }
@@ -39,11 +39,13 @@ input {
     padding: 10px;
     color: rgb(17, 0, 255);
     margin: 15px;
+    width: 80%;
 }
 
 button {
     padding: 10px 40px;
     margin: 10px;
+   
 }
 
 .option{
@@ -56,8 +58,9 @@ button {
 .selectDrop{
 
     font-size: 20px;
-    padding: 5px 20px 5px 10px;
+    padding: 5px 30px 5px 20px;
     border-radius: 10px;
     border: none;
+    margin: 15px;
 
 }

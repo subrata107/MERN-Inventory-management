@@ -19,7 +19,6 @@ exports.updateProducts = async (req, res) => {
     req.params.id,
     req.body
   );
-
   res.send(true);
 };
 

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useNavigate } from 'react-router';
-import './css/removeprod.css'
+import './css/update-removeprod.css'
 import Home from './home'
 import Axios from 'axios';
 const removeProd = () => {
@@ -38,6 +38,7 @@ const removeProd = () => {
   };
 
   const handleRemove = async (e) => {
+    
     e.preventDefault();
     console.log(`My removed data , ProductName = ${data.productName}, qty= ${data.qty}
     lastOrder= ${data.lastOrder}, data_id= ${data._id}`);
@@ -69,6 +70,7 @@ const removeProd = () => {
   return (
     <>
     <Home/>
+      <br />
       <div id="container">
         <form action="" id="form-group">
           <label htmlFor="">Product Id</label>
