@@ -58,22 +58,7 @@ th {
   
   #actionContainer{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   
     
-  a {
-    background-color: #000000;
-    color: #f2ff00;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    font-size: 25px;
-    padding: 20px;
-    text-decoration: none;
-    margin: 10px;
-
-  }
-  a:hover {
-    background-color: #5d5252;
-  }

@@ -20,9 +20,8 @@ exports.updateProducts = async (req, res) => {
     req.body 
   );
 
-  res.status(200).json({
-    updateProducts
-  });
+  res.send(true);
+  
 };
 
 exports.removeProducts = async (req, res) => {

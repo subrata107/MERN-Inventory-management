@@ -9,7 +9,7 @@ body {
     width: 50%;
     display: flex;
     justify-content: center;
-    margin: 5% 25% 5% 25%
+    margin: 0 25% 5% 25%
 }
 
 #form-group {
@@ -52,4 +52,12 @@ button {
     font-size: larger;
     width: 30px;
     padding: 10px 20px;
+}
+.selectDrop{
+
+    font-size: 20px;
+    padding: 5px 20px 5px 10px;
+    border-radius: 10px;
+    border: none;
+
 }

@@ -24,7 +24,7 @@ const addProd = () => {
     ) {
           if (data.pid.length === 3 && data.lastOrder >= "2000" && data.qty >= 1) {
             const addResponse = await axios.post(
-              "http://localhost:3000/api/v1/new",
+              "http://localhost:4000/api/v1/new",
               data
             );
 
